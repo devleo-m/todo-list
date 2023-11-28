@@ -20,14 +20,18 @@ function TodoList() {
 
   const addTask = () => {
     if (newTask.trim() !== '') {
-      setTasks([...tasks, { text: newTask, completed: false }]);
+      const newTaskObject = {
+        text: newTask,
+        completed: false,
+        createdDate: new Date().toLocaleString(),
+      };
+      setTasks([...tasks, newTaskObject]);
       setNewTask('');
       setFeedbackMessage('Tarefa adicionada com sucesso!');
     } else {
       setFeedbackMessage('Digite o nome da tarefa antes de adicionar.');
     }
 
-    // Limpa a mensagem de feedback após 3 segundos
     setTimeout(() => {
       setFeedbackMessage('');
     }, 3000);
@@ -68,7 +72,7 @@ function TodoList() {
 
   return (
     <div className="todo-list-container">
-      <h2>Task List</h2>
+      <h2>To-do List</h2>
       <div>
         <input
           type="text"
