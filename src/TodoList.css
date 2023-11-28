@@ -1,0 +1,62 @@
+/* src/TodoList.css */
+.todo-list-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+  }
+  
+  button {
+    margin-left: 8px;
+    cursor: pointer;
+  }
+
+
+  .feedback-message {
+    margin-top: 10px;
+    padding: 8px;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    border-radius: 4px;
+    color: #155724;
+  }
+
+
+.todo-list-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Adiciona estilos para tornar o aplicativo mais responsivo */
+  @media (max-width: 600px) {
+    .todo-list-container {
+      max-width: 100%;
+    }
+  }

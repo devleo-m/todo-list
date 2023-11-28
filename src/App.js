@@ -1,10 +1,12 @@
-import React from "react";
+// src/App.js
+import React from 'react';
+import TodoList from './TodoList';
 
-function App(){
-  return(
+function App() {
+  return (
     <div className="App">
-      <h1>To-do List</h1>
-      {/* components todo list */}
+      <h1>Todo List App</h1>
+      <TodoList />
     </div>
   );
 }
