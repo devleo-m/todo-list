@@ -1,42 +1,37 @@
-# Todo List App
+# Todo List
 
-Este projeto é uma aplicação basica de lista de tarefas desenvolvida com React.
+This project is a basic to-do list application developed with React.
 
-## Sobre o Projeto
+## About the Project
 
-A aplicação permite adicionar tarefas, marcar como concluídas e removê-las da lista.
+The application allows adding tasks, marking them as completed, and removing them from the list.
 
-## Funcionalidades
+## Features
 
-- Adicionar uma nova tarefa.
-- Marcar uma tarefa como concluída ou desmarcar.
-- Remover uma tarefa da lista.
+- Add a new task.
+- Mark a task as completed or unmark it.
+- Remove a task from the list.
 
-## Como Usar
+## How to Use
 
-1. Clone o repositório:
+1. Clone the repository:
+    ```
+    $git clone https://github.com/devleo-m/todo-list.git
+2. Navigate to the project folder:
+    ```
+    $cd todo-list-app
+3. Install dependencies:
+    ```
+    $npm install
+4. Start the application:
+    ```
+    $npm start
+5. Open your browser and go to `http://localhost:3000`
 
-$git clone https://github.com/devleo-m/todo-list.git
+## Contribute
 
-2. Entre na pasta do projeto:
+If you want to contribute to this project, feel free to open pull requests or issues reporting problems/enhancements. I'd like to see if it's possible for another person to improve this basic project.
 
-$cd todo-list-app
+## License
 
-3. Instale as dependências:
-
-$npm install
-
-4. Inicie a aplicação:
-
-$npm start
-
-5. Abra o navegador e acesse `http://localhost:3000`
-
-## Contribuir
-
-Se quiser contribuir com este projeto, sinta-se à vontade para abrir pull requests ou issues relatando problemas/enhancements.
-Quero vê se é possivel outra pessoa aprimorar esse projeto basico.
-
-## Licença
-
-Licença para ser feliz com esse codigo!
+License to be happy with this code!
